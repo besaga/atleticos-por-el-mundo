@@ -1,0 +1,17 @@
+
+<div class="container partido" id="lista de partidos">
+
+  <h1 style="font-weight: 100">Calendario de partidos</h1>
+
+  <hr>
+  {{#each allGame}}
+  <img src={{img}} alt="logo competition">
+  <h4>{{name}}</h4>
+  <p>{{date}}</p>
+  <p>{{hour}}</p>
+  <p>{{stadium}}</p>
+   {{/each }}
+
+<a href="/" class="btn btn-dark">Volver</a>
+</div>
+

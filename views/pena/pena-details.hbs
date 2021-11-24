@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="../stylesheets/style.css">
+
+<div class="container pena-details">
+
+  <img src="" alt="">
+
+  <h1 style="font-weight: 100">{{name}}</h1>
+  <img class= "imagen_logo" src={{img}} alt="logo pena">
+  <p> País: {{country}}</p>
+  <p>Ciudad: {{city}}</p>
+  <p>Sede: {{site}}</p>
+  <p>Año de Fundación: {{fundation}}</p>
+  <p>Teléfono de contacto: {{phoneNumber}}</p>
+  <p id="latitude" style="display: none;">{{location.coordinates.[0]}}</p>
+  <p id="longitude" style="display: none;">{{location.coordinates.[1]}}</p>
+
+
+    <style>
+       #map {
+        height: 300px;
+        width: 40%;
+       }
+    </style>
+    <br> <br> <br>
+  <body>
+    <h3>Aqui tiens la ubicación:</h3>
+    <div id="map"></div>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCZbL-LBKurU2JlPvKog4MN40TOUeXgSQU"></script>
+    <script type="text/javascript" src="/js/main.js"></script>
+  </body>
+  
+<a href="/pena/unit" class="btn btn-dark">Únete</a>
+<a href="/" class="btn btn-dark">Volver</a>
+
+</div>
+</html>

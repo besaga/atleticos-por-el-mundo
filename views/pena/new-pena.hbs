@@ -1,0 +1,63 @@
+<link rel="stylesheet" href="../stylesheets/style.css">
+
+<div class="container">
+
+  <div class="row">
+
+    <div class="col-md-6">
+      <h1 style="font-weight: 100">Nueva Peña Atlética</h1>
+    </div>
+
+    <div class="col-md-6">
+
+      <form action="/pena/new-pena" enctype="multipart/form-data" method="POST">
+          <div class="form-group">
+          <label for="avatar">Choose a profile picture:</label>
+          <input type="file"
+        id="avatar" name="avatar"
+       accept="image/png, image/jpeg">
+        </div>
+        <div class="form-group">
+          <label for="name-input">Nombre de la peña</label>
+          <input name="name" type="text" class="form-control">
+        </div>
+        <div class="form-group">
+          <label for="country-input">Country</label>
+          <input name="country" type="text" class="form-control">
+        </div>
+        <div class="form-group">
+          <label for="city-input">City</label>
+          <input name="city" type="text" class="form-control">
+        </div>
+        <div class="form-group">
+          <label for="site-input">Sede</label>
+          <input name="site" type="text" class="form-control">
+        </div>
+         <div class="form-group">
+          <label for="fundation-input">Año de Fundación</label>
+          <input name="fundation" type="number" class="form-control">
+        </div>
+        <div class="form-group">
+          <label for="number-input">Teléfono de contacto</label>
+          <input name="number" type="number" class="form-control">
+        </div>
+         <div class="form-group">
+          <label for="location">Latitud</label>
+          <input name="latitude" type="text" class="form-control">
+        </div>
+                  <label for="location">Longitud</label>
+          <input name="longitude" type="text" class="form-control">
+        </div>
+        {{!-- <div class="form-group">
+          <label for="tourist-input">Imagen turimos</label>
+          <input name="tourist" type="text" class="form-control">
+        </div> --}}
+
+        <button type="submit" class="btn btn-dark">Crear Peña</button>
+        <a href="/" class="btn btn-dark">Volver</a>
+
+      </form>
+    </div>
+
+  </div>
+</div>

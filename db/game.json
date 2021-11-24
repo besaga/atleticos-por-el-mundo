@@ -1,0 +1,186 @@
+[
+    { 
+      "img": "https://www.atleticodemadrid.com/img/competicion-liga.jpg",
+      "name": "Cádiz CF - Atlético de Madrid",
+      "date": "Domingo 28 de noviembre",
+      "hour": "18:30h",
+      "stadium": "Estadio Carranza"
+    },
+    {   
+        "img": "https://www.atleticodemadrid.com/img/competicion-europe.jpg",
+        "name": "Oporto - Atlético de Madrid",
+        "date": "Martes 7 de diciembre",
+        "hour": "21:00h",
+        "stadium": "Estadio do Dragão"
+    },
+
+      {  
+        "img": "https://www.atleticodemadrid.com/img/competicion-liga.jpg", 
+        "name": "Real Madrid - Atlético de Madrid",
+        "date": "Domingo 12 de diciembre",
+        "hour": "21:00h",
+        "stadium": "Santiago Bernabéu"
+      },
+      {  
+        "img": "https://www.atleticodemadrid.com/img/competicion-liga.jpg", 
+        "name": "Sevilla - Atlético de Madrid",
+        "date": "S18 o D19 de diciembre",
+        "hour": "Sin confirmar",
+        "stadium": "Ramón Sánchez-Pizjuán"
+      },
+      {  
+        "img": "https://www.atleticodemadrid.com/img/competicion-liga.jpg", 
+        "name": "Granada CF - Atlético de Madrid",
+        "date": "Miércoles 22 de diciembre",
+        "hour": "19:00h",
+        "stadium": "Nuevo Los Cármenes"
+      },
+      {  
+        "img": "https://www.atleticodemadrid.com/img/competicion-liga.jpg", 
+        "name": "Atlético de Madrid - Rayo Vallecano",
+        "date": "S1 o D2 de enero",
+        "hour": "Sin confirmar",
+        "stadium": "Wanda Metropolitano"
+      },
+      {  
+        "img": "https://www.atleticodemadrid.com/img/competicion-liga.jpg", 
+        "name": "Villarreal CF - Atlético de Madrid",
+        "date": "S8 o D9 de enero",
+        "hour": "Sin confirmar",
+        "stadium": "Estadi de la Ceràmica"
+      },
+      {  
+        "img": "https://www.atleticodemadrid.com/img/competicion-sup-es.jpg", 
+        "name": "Atlético de Madrid - Athletic Club",
+        "date": "Miércoles 12 de enero",
+        "hour": "Sin confirmar",
+        "stadium": "King Abdullah Sports City"
+      },
+      {  
+        "img": "https://www.atleticodemadrid.com/img/competicion-liga.jpg", 
+        "name": "Atlético de Madrid - Levante",
+        "date": "M18, X19 o J20 de enero",
+        "hour": "Sin confirmar",
+        "stadium": "Wanda Metropolitano"
+      },
+      {  
+        "img": "https://www.atleticodemadrid.com/img/competicion-liga.jpg", 
+        "name": "Atlético de Madrid - Valencia",
+        "date": "S22 o D23 de enero",
+        "hour": "Sin confirmar",
+        "stadium": "Wanda Metropolitano"
+      },
+      {  
+        "img": "https://www.atleticodemadrid.com/img/competicion-liga.jpg", 
+        "name": "FC Barcelona - Atlético de Madrid",
+        "date": "S5 o D6 de febrero",
+        "hour": "Sin confirmar",
+        "stadium": "Camp Nou"
+      },
+      {  
+        "img": "https://www.atleticodemadrid.com/img/competicion-liga.jpg", 
+        "name": "Atlético de Madrid - Getafe",
+        "date": "S12 o D13 de febrero",
+        "hour": "Sin confirmar",
+        "stadium": "Wanda Metropolitano"
+      },
+      {  
+        "img": "https://www.atleticodemadrid.com/img/competicion-liga.jpg", 
+        "name": "Osasuna - Atlético de Madrid",
+        "date": "S19 o D20 de febrero",
+        "hour": "Sin confirmar",
+        "stadium": "El Sadar"
+      },
+      {  
+        "img": "https://www.atleticodemadrid.com/img/competicion-liga.jpg", 
+        "name": "Atlético de Madrid - Celta",
+        "date": "S26 o D27 de febrero",
+        "hour": "Sin confirmar",
+        "stadium": "Wanda Metropolitano"
+      },
+      {  
+        "img": "https://www.atleticodemadrid.com/img/competicion-liga.jpg", 
+        "name": "Betis - Atlético de Madrid",
+        "date": "S5 o D6 de marzo",
+        "hour": "Sin confirmar",
+        "stadium": "Benito Villamarín"
+      },
+      {  
+        "img": "https://www.atleticodemadrid.com/img/competicion-liga.jpg", 
+        "name": "Atlético de Madrid - Cádiz CF",
+        "date": "S12 o D13 de marzo",
+        "hour": "Sin confirmar",
+        "stadium": "Wanda Metropolitano"
+      },
+      {  
+        "img": "https://www.atleticodemadrid.com/img/competicion-liga.jpg", 
+        "name": "Rayo Vallecano - Atlético de Madrid",
+        "date": "S19 o D20 de marzo",
+        "hour": "Sin confirmar",
+        "stadium": "Estadio de Vallecas"
+      },
+      {  
+        "img": "https://www.atleticodemadrid.com/img/competicion-liga.jpg", 
+        "name": "Atlético de Madrid - Alavés",
+        "date": "S2 o D3 de abril",
+        "hour": "Sin confirmar",
+        "stadium": "Wanda Metropolitano"
+      },
+      {  
+        "img": "https://www.atleticodemadrid.com/img/competicion-liga.jpg", 
+        "name": "Mallorca - Atlético de Madrid",
+        "date": "S9 o D10 de abril",
+        "hour": "Sin confirmar",
+        "stadium": "Son Moix"
+      },
+      {  
+        "img": "https://www.atleticodemadrid.com/img/competicion-liga.jpg", 
+        "name": "Atlético de Madrid - Espanyol",
+        "date": "S16 o D17 de abril",
+        "hour": "Sin confirmar",
+        "stadium": "Wanda Metropolitano"
+      },
+      {  
+        "img": "https://www.atleticodemadrid.com/img/competicion-liga.jpg", 
+        "name": "Atlético de Madrid - Granada CF",
+        "date": "M19, X20 o J21 de abril",
+        "hour": "Sin confirmar",
+        "stadium": "Wanda Metropolitano"
+      },
+      {  
+        "img": "https://www.atleticodemadrid.com/img/competicion-liga.jpg", 
+        "name": "Athletic Club - Atlético de Madrid",
+        "date": "S30 de abril o D1 de mayo",
+        "hour": "Sin confirmar",
+        "stadium": "San Mamés"
+      },
+      {  
+        "img": "https://www.atleticodemadrid.com/img/competicion-liga.jpg", 
+        "name": "Atlético de Madrid - Real Madrid",
+        "date": "S7 o D8 de mayo",
+        "hour": "Sin confirmar",
+        "stadium": "Wanda Metropolitano"
+      },
+      {  
+        "img": "https://www.atleticodemadrid.com/img/competicion-liga.jpg", 
+        "name": "Elche CF - Atlético de Madrid",
+        "date": "M10, X11 o J12 de mayo",
+        "hour": "Sin confirmar",
+        "stadium": "Estadio Martínez Valero"
+      },
+      {  
+        "img": "https://www.atleticodemadrid.com/img/competicion-liga.jpg", 
+        "name": "Atlético de Madrid - Sevilla",
+        "date": "S14 o D15 de mayo",
+        "hour": "Sin confirmar",
+        "stadium": "Wanda Metropolitano"
+      },
+      {  
+        "img": "https://www.atleticodemadrid.com/img/competicion-liga.jpg", 
+        "name": "Real Sociedad - Atlético de Madrid",
+        "date": "S21 o D22 de mayo",
+        "hour": "Sin confirmar",
+        "stadium": "Reale Arena"
+      }
+
+]

@@ -1,0 +1,63 @@
+*{
+  margin:0px;
+  padding:0px;
+}
+
+a {
+  color: #00b7ff;
+}
+
+
+body {
+ 
+  color: white;
+  background: url("../images/estadio.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+#buscador{
+text-align: center;
+margin-top: 300px;
+}
+
+h1 {
+  color: 15px;
+}
+
+#form-searcher-penyas {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.s-field select {
+  height: 40px;
+  display: block;
+  position: relative;
+}
+
+#registro{
+  background: url("../images/campeones.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#trajeta-formulario{
+  background: url("../images/campeones.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#lista{
+  background: url("../images/escudo.jpeg");
+  
+}
+
+.imagen_logo{
+  width:90px;
+  height:90px;
+}

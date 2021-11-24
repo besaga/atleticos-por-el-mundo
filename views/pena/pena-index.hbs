@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>{{siteTitle}}</title>
+      <link rel='stylesheet' href="../stylesheets/style.css" />
+      <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css'>
+   </head>
+
+<div class="container pena-index" id="lista">
+
+  <h1 style="font-weight: 100">Lista de peñas</h1>
+
+  <hr>
+  {{#each newPenas}}
+  <img src={{img}} alt="logo pena" class="imagen_logo">
+  <h4>{{name}}</h4>
+  <p>País: {{country}}</p>
+  <p>Ciudad: {{city}}</p>
+  <p>Sede: {{site}}</p>
+  <a href="/pena/{{_id}}" class="btn btn-sm btn-dark">Ver detalles</a>
+  
+  <br><br>
+   {{#if ../isADMIN}}
+   <a href="/pena/edit/{{_id}}" class="btn btn-sm btn-dark">Editar</a>
+   <br><br>
+   <form action="/pena/delete?id={{id}}" method="POST">
+      <button type="submit" class="btn btn-dark">Eliminar Peña</button>
+    </form>
+
+   {{else}}
+
+      {{#if isOwner}}
+      <a href="/pena/edit/{{_id}}" class="btn btn-sm btn-dark">Editar</a>
+      <br><br>
+      <form action="/pena/delete?id={{id}}" method="POST">
+         <button type="submit" class="btn btn-dark">Eliminar Peña</button>
+      </form>
+      {{/if}}
+      
+   {{/if}}
+  <hr>
+   {{/each }}
+
+</div>
+</html>

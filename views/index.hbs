@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>{{siteTitle}}</title>
+      <link rel='stylesheet' href="../stylesheets/style.css" />
+      <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css'>
+   </head>
+
+   <body>
+      <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+         <a class="navbar-brand" href="/">
+            <img src="/images/logo-aleti.png" width="30" height="40" alt="Logo" class="d-inline-block align-top"> {{siteTitle}}
+         </a>
+
+         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+         </button>
+
+         <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+               <li class="nav-item">
+                  <a class="nav-link" href="/game/game-index">Partidos</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="/auth/signup-page">Registro</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="pena/new-pena">Crear Peña</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="/pena/pena-index">Lista de Peñas</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="/auth/login-page">Inicio Sesión</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="/auth/cerrar-sesion">Cerrar Sesión</a>
+               </li>
+         </div>
+      </nav>
+
+      <main>
+         {{{body}}}
+      <section id="buscador">
+         <form method="POST" action="/pena/search" id="form-searcher-penas" class="form-inline my-2 my-lg-0">
+				      <label for="country">Selecciona un país:</label>
+				      <select class="form-control mr-sm-2" type="search" id="pais" name="country">
+                     {{!-- <option value="">Todos los paises...</option> --}}
+                     <option value="Alemania">Alemania</option>
+                     <option value="Argentina">Argentina</option>
+                     <option value="Australia">Australia</option>
+                     <option value="Brasil">Brasil</option>
+                     <option value="Belgica">Belgica</option>
+                     <option value="China">China</option>
+                     <option value="Cuba">Cuba</option>
+                     <option value="Dinamarca">Dinamarca</option>
+                     <option value="Emiratos Arabes Unidos">Emiratos Arabes Unidos</option>
+                     <option value="Escocia">Escocia</option>
+                     <option value="Estados Unidos">Estados Unidos</option>
+                     <option value="Francia">Francia</option>
+                     <option value="Guatemala">Guatemala</option>
+                     <option value="Hungria">Hungria</option>
+                     <option value="Irlanda Del Norte">Irlanda Del Norte</option>
+                     <option value="Israel">Israel</option>
+                     <option value="Japon">Japon</option>
+                     <option value="Luxemburgo">Luxemburgo</option>
+                     <option value="Marruecos">Marruecos</option>
+                     <option value="Noruega">Noruega</option>
+                     <option value="Polonia">Polonia</option>
+                     <option value="Qatar">Qatar</option>
+                     <option value="Rumania">Rumania</option>
+                     <option value="Rusia">Rusia</option>
+                     <option value="Singapur">Singapur</option>
+                     <option value="Suecia">Suecia</option>
+                     <option value="Timor Oriental" selected="selected">Timor Oriental</option>
+                  </select>
+			    <input class="btn primary-btn" type="submit" value="Enviar">
+			</form>
+      </section>
+      </main>
+
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+         crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+         integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+         crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
+         integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF"
+         crossorigin="anonymous"></script>
+      <script src="/js/script.js"></script>
+   </body>
+
+</html>
