@@ -1,22 +1,16 @@
 
 
-<div class="container">
+<div class="container-edit-pena">
 
   <div class="row">
 
-    <div class="col-md-6">
-      <h1 style="font-weight: 100">Editar Peña Atlética</h1>
+    <div class="col-md-12" >
+      <h1>Editar Peña Atlética</h1>
     </div>
 
-    <div class="col-md-6">
+    <div class="container d-flex flex-column align-items-center">
 
       <form action="/pena/edit/{{_id}}" enctype="multipart/form-data" method="POST">
-          {{!-- <div class="form-group">
-          <label for="avatar">Choose a profile picture:</label>
-          <input type="file"
-        id="avatar" name="avatar"
-       accept="image/png, image/jpeg">
-        </div> --}}
         <div class="form-group">
           <label for="name-input">Nombre de la peña: </label>
           <input value="{{name}} "name="name" type="text" class="form-control">
@@ -45,7 +39,8 @@
           <label for="location">Latitud</label>
           <input name="{{latitude}}" type="text" class="form-control">
         </div>
-                  <label for="location">Longitud</label>
+        <div>
+          <label for="location">Longitud</label>
           <input name="{{longitude}}" type="text" class="form-control">
         </div>
 

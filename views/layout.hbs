@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>{{siteTitle}}</title>
+      <link rel='stylesheet' href="../stylesheets/style.css" />
+      <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css'>
+   </head>
+
+   <body>
+      <nav class="navbar navbar-light" style="background-color: #a3291d;">
+         <a class="navbar-brand" href="/">
+            <img src="/images/logo-aleti.png" width="30" height="40" alt="Logo" class="d-inline-block align-top"> {{siteTitle}}
+         </a>
+
+         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+         </button>
+
+         <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+               <li class="nav-item">
+                  <a class="nav-link" href="/game/game-index">Partidos</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="/auth/signup-page">Registro</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="/pena/new-pena">Crear Peña</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="/pena/pena-index">Lista de Peñas</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="/auth/login-page">Inicio Sesión</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="/auth/cerrar-sesion">Cerrar Sesión</a>
+               </li>
+         </div>
+      </nav>
+
+      <main>
+         {{{body}}}
+      
+      </main>
+
+      {{!-- <footer class="sponsors">
+         <section class="footer-02">
+            <a href="http://www.cocacola.es/" title="Coca-Cola" target="_blank"><img id="logo-coca-cola" alt="Coca-Cola" src=""></a>
+            <a href="https://www.acronis.com/es-es/" title="Acronis" target="_blank"><img id="logo-acronis" alt="Acronis" src=""></a>
+            <a href="https://www.socios.com/es/atletico-de-madrid/" title="Socios.com" target="_blank"><img id="logo-socios-com" alt="Socios.com" src=""></a>
+            <a href="https://www.tdtienda.es/ " title="TDSystems" target="_blank"><img id="logo-tdsystems" alt="TDSystems" src=""></a>
+            <a href="https://sorare.com/laliga" title="sorare" target="_blank"><img id="logo-sorare" alt="sorare" src=""></a>
+            <a href="https://www.rowe-oil.es/" title="Rowe" target="_blank"><img id="logo-rowe" alt="Rowe" src=""></a>
+            <a href="https://www.plein.com/es/home/" title="Philip Plein" target="_blank"><img id="logo-philip-plein-2" alt="Philip Plein" src=""></a>
+      </section>
+		
+      </footer>  --}}
+
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+         crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+         integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+         crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
+         integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF"
+         crossorigin="anonymous"></script>
+      <script src="/js/script.js"></script>
+   </body>
+
+
+</html>

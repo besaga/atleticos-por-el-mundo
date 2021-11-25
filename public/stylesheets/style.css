@@ -1,11 +1,8 @@
-*{
+/* *{
   margin:0px;
   padding:0px;
 }
 
-a {
-  color: #00b7ff;
-}
 
 
 body {
@@ -17,28 +14,6 @@ body {
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
-#buscador{
-text-align: center;
-margin-top: 300px;
-}
-
-h1 {
-  color: 15px;
-}
-
-#form-searcher-penyas {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  gap: 15px;
-}
-
-.s-field select {
-  height: 40px;
-  display: block;
-  position: relative;
-}
 
 #registro{
   background: url("../images/campeones.jpeg");
@@ -52,12 +27,112 @@ h1 {
   background-size: cover;
 }
 
-#lista{
-  background: url("../images/escudo.jpeg");
+/* footer {
+  background-color: #202096;
+  position:absolute;
+  bottom: 0px;
+  width: 100%;
+  padding: 20px 0px 20px 0px;
   
 }
 
-.imagen_logo{
-  width:90px;
-  height:90px;
+.sponsors {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
+.footer-02 {
+  display: flex;
+  justify-content: space-between;
+} */
+
+body {
+  height: 100vh;
+}
+
+h1 {
+  text-align: center;
+}
+
+/* //index */
+#buscador{
+  text-align: center;
+  margin-top: 300px;
+  }
+
+#form-searcher-penas {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+  }
+
+  /* game-index */
+
+  #lista-de-partidos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+
+  /* auth  */
+  #trajeta-formulario{
+    margin-top: 100px;
+  }
+
+  /* logos partidos */
+  .imagen_logo{
+    width:90px;
+    height:90px;
+  }
+  
+  /* pena-index */
+  #lista-de-penas{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+
+  
+  /* pena-datails */
+
+  .container-pena-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+  }
+
+    /* ordenar botones */
+  #orden-botton{
+    display: flex;
+    flex-direction: row;
+  }
+  /* crear peña  */
+  .container-new-pena{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+  }
+/* editar botones */
+  .container-edit-pena{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+  }
+
+  

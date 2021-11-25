@@ -20,6 +20,7 @@ router.get('/pena-index', isLoggedIn,(req, res, next) => {
       copy.isOwner = isOwner(req.session.currentUser, pena)
 
       newPenas.push(copy)
+      console.log(newPenas)
     })
     
     res.render('pena/pena-index', { newPenas, isADMIN: isADMIN(req.session.currentUser) })
@@ -54,7 +55,7 @@ router.post('/new-pena', fileUploader.single('avatar'),isLoggedIn,(req, res, nex
 
 });
 
-router.post('/search', (req, res, next) => {
+router.post('/search', isLoggedIn,(req, res, next) => {
   const {country} = req.body
   Pena
   .find({ country })
