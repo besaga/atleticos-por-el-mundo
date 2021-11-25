@@ -46,10 +46,10 @@ router.post('/new-pena', fileUploader.single('avatar'),isLoggedIn,(req, res, nex
       site: req.body.site,
       fundation: req.body.fundation,
       phoneNumber: req.body.phoneNumber,
-      location: Number(location),
+      location: location,
       owner: req.session.currentUser._id  
   })
-      .then(() => res.redirect("/"))
+      .then(() => res.render("/"))
       .catch(err => next(err))
 
 
@@ -86,19 +86,20 @@ router.get('/edit/:id', checkRoles("ADMIN", "PRESIDENT"),(req, res, next) => {
 router.post('/edit/:id', checkRoles("ADMIN", "PRESIDENT"), (req, res, next) => {
 const {id} = req.params
 const {name, country, city, site, fundation, phoneNumber, location} = req.body
+  console.log(req.body)
 
 	Pena
-
     .findByIdAndUpdate(id, {name, country, city, site, fundation, phoneNumber, location}, {new: true})
-		.then(() => res.redirect("/"))
+		.then((pena) => {
+      res.redirect("/")
+    })
 		.catch(err => next(err))
 
-    })
+})
 
-
-    router.get("/unit", (req, res, next) => {
-      res.render("nodemailer/unit")
-    })
+router.get("/unit", (req, res, next) => {
+  res.render("nodemailer/unit")
+})
 
 router.get('/:pena_id', (req, res, next) => {
 

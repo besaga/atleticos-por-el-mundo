@@ -1,6 +1,5 @@
 
-
-<div class="container-edit-pena">
+<div class="container-edit-pena" style="color: white;">
 
   <div class="row">
 
@@ -10,10 +9,10 @@
 
     <div class="container d-flex flex-column align-items-center">
 
-      <form action="/pena/edit/{{_id}}" enctype="multipart/form-data" method="POST">
+      <form action="/pena/edit/{{_id}}"  method="POST">
         <div class="form-group">
           <label for="name-input">Nombre de la peña: </label>
-          <input value="{{name}} "name="name" type="text" class="form-control">
+          <input value="{{name}}" name="name" type="text" class="form-control">
         </div>
         <div class="form-group">
           <label for="country-input">País: </label>
@@ -37,15 +36,15 @@
         </div>
         <div class="form-group">
           <label for="location">Latitud</label>
-          <input name="{{latitude}}" type="text" class="form-control">
+          <input value="{{location.coordinates.[0]}}" name="latitud" type="text" class="form-control">
         </div>
-        <div>
+        <div class="form-group">
           <label for="location">Longitud</label>
-          <input name="{{longitude}}" type="text" class="form-control">
+          <input value="{{location.coordinates.[1]}}" name="longitud" type="text" class="form-control">
         </div>
 
-        <button type="submit" class="btn btn-dark">Guardar</button>
-        <a href="/" class="btn btn-dark">Volver</a>
+        <button type="submit" class="btn btn-dark" style="background-color: white; border-color: white; color: black;">Guardar</button>
+        <a href="/" class="btn btn-dark" style="background-color: white; border-color: white; color: black;">Volver</a>
 
       </form>
     </div>

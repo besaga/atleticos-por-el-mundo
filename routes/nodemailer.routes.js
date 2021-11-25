@@ -12,7 +12,7 @@ router.post('/unit', (req, res, next) => {
     text: `${message}`,
     html: `<b>${message}</b>`
   })
-    .then(info => res.render('nodemailer/message', { email, subject, message }))
+    .then(info => res.redirect('/'))
     .catch(error => {
         console.log(error)
         res.render('nodemailer/message', { errorMessage: "El correo no ha podido ser enviado" })

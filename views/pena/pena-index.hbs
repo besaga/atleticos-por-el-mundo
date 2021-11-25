@@ -1,6 +1,6 @@
 
 
-<div class="container pena-index" id="lista-de-penas">
+<div class="container pena-index" id="lista-de-penas" style="color: white;">
 
   <h1>Lista de peñas</h1>
 
@@ -12,21 +12,21 @@
   <p>Ciudad: {{city}}</p>
   <p>Sede: {{site}}</p>
   <div id="orden-botton">
-<a href="/pena/{{_id}}" class="btn btn-sm btn-dark" style="margin-right: 30px;">Ver detalles</a>
+<a href="/pena/{{_id}}" class="btn btn-sm btn-dark" style="background-color: white; border-color: white; color: black; margin-right: 30px">Ver detalles</a>
    {{#if ../isADMIN}}
-   <a href="/pena/edit/{{_id}}" class="btn btn-sm btn-dark" style="margin-right: 30px;">Editar</a>
+   <a href="/pena/edit/{{_id}}" class="btn btn-sm btn-dark" style="background-color: white; border-color: white; color: black; margin-right: 30px">Editar</a>
    <br><br>
    <form action="/pena/delete?id={{id}}" method="POST">
-      <button type="submit" class="btn btn-dark">Eliminar Peña</button>
+      <button type="submit" class="btn btn-dark" style="background-color: white; border-color: white; color: black;">Eliminar Peña</button>
     </form>
 
    {{else}}
 
       {{#if isOwner}}
-      <a href="/pena/edit/{{_id}}" class="btn btn-sm btn-dark" style="margin-right: 30px;">Editar</a>
+      <a href="/pena/edit/{{_id}}" class="btn btn-sm btn-dark" style="background-color: white; border-color: white; color: black; margin-right: 30px">Editar</a>
       <br><br>
       <form action="/pena/delete?id={{id}}" method="POST">
-         <button type="submit" class="btn btn-dark">Eliminar Peña</button>
+         <button type="submit" class="btn btn-dark" style="background-color: white; border-color: white; color: black;">Eliminar Peña</button>
       </form>
       {{/if}}
       
@@ -36,5 +36,5 @@
   </div>
   <br>
    {{/each }}
-<a href="/" class="btn btn-dark">Volver</a>
+<a href="/" class="btn btn-dark" style="background-color: white; border-color: white; color: black;">Volver</a>
 </div>

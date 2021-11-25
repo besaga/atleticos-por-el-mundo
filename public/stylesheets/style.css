@@ -58,8 +58,11 @@ h1 {
 /* //index */
 #buscador{
   text-align: center;
-  margin-top: 300px;
   }
+
+.searchbar-container {
+  padding-top: 200px;
+}
 
 #form-searcher-penas {
     display: flex;
@@ -115,6 +118,7 @@ h1 {
   #orden-botton{
     display: flex;
     flex-direction: row;
+    justify-content: center;
   }
   /* crear peña  */
   .container-new-pena{
@@ -135,4 +139,23 @@ h1 {
 
   }
 
+  .atletibg {
+    background-image: url("../images/estadio.jpeg");
+    background-size: cover;
+    height: 100vh;
+  }
   
+  .pais-index{
+    background-color: white;
+    /* padding:20px,10px,20px,10px; */
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 3px ;
+    
+  }
+
+  ul{
+    color: white;
+  }

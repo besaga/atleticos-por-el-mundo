@@ -1,11 +1,13 @@
 
 
    
+      <div class="atletibg">
 
-      <main>
-      <section id="buscador">
+      <main class="searchbar-container d-flex justify-content-center flex-column align-items-center">
+
+      <section class="mb-4" id="buscador">
          <form method="POST" action="/pena/search" id="form-searcher-penas" class="form-inline my-2 my-lg-0">
-				      <label for="country">Selecciona un país:</label>
+				      <label class="pais-index" for="country">Selecciona un país:</label>
 				      <select class="form-control mr-sm-2" type="search" id="pais" name="country">
                      <option value="Alemania">Alemania</option>
                      <option value="Argentina">Argentina</option>
@@ -35,11 +37,16 @@
                      <option value="Suecia">Suecia</option>
                      <option value="Timor Oriental" selected="selected">Timor Oriental</option>
                   </select>
-			    <input class="btn primary-btn" type="submit" value="Enviar">
+            <button type="submit" value="Enviar" class="btn btn-primary" style="background-color: #2C325F; border-color: #2C325F">Buscar</button>
 			</form>
       </section>
+         <div>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/ziuFfF9sYIw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+         </div>
       </main>
 
+   </div>
+ 
       {{!-- <footer class="sponsors">
          <section class="footer-02">
             <a href="http://www.cocacola.es/" title="Coca-Cola" target="_blank"><img id="logo-coca-cola" alt="Coca-Cola" src=""></a>
