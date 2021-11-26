@@ -49,7 +49,7 @@ router.post('/new-pena', fileUploader.single('avatar'),isLoggedIn,(req, res, nex
       location: location,
       owner: req.session.currentUser._id  
   })
-      .then(() => res.render("/"))
+      .then(() => res.redirect("/"))
       .catch(err => next(err))
 
 
@@ -86,7 +86,7 @@ router.get('/edit/:id', checkRoles("ADMIN", "PRESIDENT"),(req, res, next) => {
 router.post('/edit/:id', checkRoles("ADMIN", "PRESIDENT"), (req, res, next) => {
 const {id} = req.params
 const {name, country, city, site, fundation, phoneNumber, location} = req.body
-  console.log(req.body)
+
 
 	Pena
     .findByIdAndUpdate(id, {name, country, city, site, fundation, phoneNumber, location}, {new: true})
